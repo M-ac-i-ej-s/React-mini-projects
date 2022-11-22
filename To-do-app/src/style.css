@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(90deg, #e52e71, #ff8a00);
+  overflow-x: hidden;
+}
+
+.slider-thumb::before {
+  position: absolute;
+  content: '';
+  left: 130px;
+  top: 180px;
+  width: 400px;
+  height: 400px;
+  background: #17141d;
+  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+  will-change: border-radius, transform, opacity;
+  animation: sliderShape 5s linear infinite;
+  display: block;
+  z-index: -1;
+  -webkit-animation: sliderShape 5s linear infinite;
+}
+@keyframes sliderShape {
+  0%,
+  100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  34% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+  }
+  50% {
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+  }
+}
+.form {
+  margin-left: 210px;
+  margin-top: 300px;
+}
+
+.input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#inlineFormInputName2 {
+  width: 250px;
+}
+
+#datetimepicker4 {
+  width: 200px;
+}
+
+.alert {
+  margin-top: 20px;
+  margin-left: 12px;
+  width: 230px;
+}
+
+.slide {
+  background-color: #17141d;
+  border-radius: 10px;
+  width: 350px;
+  height: 70px;
+  color: rgb(218, 212, 212);
+  padding-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text {
+  position: absolute;
+  padding-top: 6px;
+  padding-left: 90px;
+  font-weight: bold;
+}
+.date {
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #fd8121;
+  color: #17141d;
+}
+.list {
+  margin-left: 130px;
+  margin-top: 160px;
+}
+#button_Delete {
+  position: absolute;
+  font-weight: bold;
+  left: 440px;
+}
+
+#submit__button {
+  font-weight: bold;
+}
+
+#red__alert {
+  position: absolute;
+}
