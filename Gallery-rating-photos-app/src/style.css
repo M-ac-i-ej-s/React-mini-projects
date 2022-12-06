@@ -1,0 +1,127 @@
+body {
+  background: rgb(109, 150, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(109, 150, 156, 1) 0%,
+    rgba(229, 233, 198, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+h1,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  position: absolute;
+  left: 50%;
+  margin: -220px 0 0 -106px;
+  width: 200px;
+  height: 200px;
+  border: 6px white solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 8px 16px -4px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 5px 8px 16px -4px rgba(66, 68, 90, 1);
+  box-shadow: 5px 8px 16px -4px rgba(66, 68, 90, 1);
+}
+.photo__box {
+  text-align: center;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  margin: 140px 0 0 -50px;
+}
+
+.rateNum__span {
+  font-size: 30px;
+  text-shadow: 1px 1px #000000;
+  color: white;
+}
+
+.author__box {
+  font-size: 20px;
+  text-shadow: 1px 1px #000000;
+  color: white;
+}
+
+.swipe__box {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.rate i,
+.rate i:hover ~ i {
+  color: rgb(255, 255, 255);
+  text-shadow: none;
+  transition: color 200ms, text-shadow 200ms;
+  transition-delay: 0;
+}
+
+.rate:hover i {
+  color: #fc0;
+  text-shadow: #fc0 0 0 20px;
+}
+
+.rate:hover i:nth-child(2) {
+  transition-delay: 30ms;
+}
+
+.rate:hover i:nth-child(3) {
+  transition-delay: 60ms;
+}
+
+.rate:hover i:nth-child(4) {
+  transition-delay: 90ms;
+}
+
+.rate:hover i:nth-child(5) {
+  transition-delay: 120ms;
+}
+
+.rate i {
+  cursor: pointer;
+  font-style: normal;
+  font-size: 40px;
+}
+button {
+  width: 100px;
+  border: 0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(201, 233, 222);
+  cursor: pointer;
+}
+.link__p {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 1px 1px #000000;
+  color: white;
+  transition: ease-in-out;
+}
+.link__p:hover {
+  text-shadow: 3px 3px #000000;
+}
+.link__det {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 1px 1px #000000;
+  color: white;
+}
+.link__det:hover {
+  text-decoration: underline;
+}
+
+.details__span {
+  margin-top: 300px;
+  text-align: center;
+  display: flex;
+  font-size: 40px;
+  flex-direction: column;
+  color: white;
+}
