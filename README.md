@@ -7,3 +7,5 @@ Register and login panel: https://stackblitz.com/edit/react-zdhrth?file=src/comp
 Shop Api app: https://stackblitz.com/edit/react-yncgmi?file=src/App.js
 
 To do app: https://stackblitz.com/edit/react-7tqkzv?file=src/style.css
+
+Gallery rating app: https://stackblitz.com/edit/react-mtwe7k?file=src/components/Main.js
